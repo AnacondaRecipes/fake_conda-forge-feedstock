@@ -2,7 +2,7 @@ name: Kick off build
 on:
   schedule:
     # Midnight daily
-    - cron: "1 6 * * *"
+    - cron: "3 6 * * *"
 
 permissions:
   contents: write
